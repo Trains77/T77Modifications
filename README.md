@@ -1,9 +1,11 @@
 
 # T77 Modifications
 
-This is a simple <em>Fabric</em> mod that makes some modifications to Minecraft, it is meant for my own private server, but you can use it too if you would like<br>
+This is a simple <em>Fabric/Quilt</em> mod that makes some modifications to Minecraft, it is meant for my own private server, but you can use it too if you would like<br>
 
-Ask for Forge and I'll confiscate your kneecaps
+Requires Fabric API or Quilted Fabric API<br>
+
+No Forge
 
 ## Features
 
