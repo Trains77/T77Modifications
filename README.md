@@ -15,7 +15,7 @@ Potion of Seen't: Applies blindness on use<br>
 
 Poisonous Potato: Can now be used to make a potion of poison<br>
 
-#### Sticks of Power, because why not
+### Sticks of Power, because why not
 
 Noob Stick: Right Click<br>
 
