@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "t77modifications",
+  "version": "1.0.2",
+  "name": "T77 Modifications",
+  "description": "Simple little modifications to Minecraft :)",
+  "authors": [
+    "Trains77"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Trains77/T77Modifications",
+    "sources": ""
+  },
+  "license": "Mozilla Public License 2.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.trains.T77modificationsMod"
+    ],
+    "client": [
+      "net.mcreator.trains.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "mixins": [
+    "t77modifications.mixins.json"
+  ]
+}

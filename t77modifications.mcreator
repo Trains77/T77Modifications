@@ -1,0 +1,411 @@
+{
+  "mod_elements": [
+    {
+      "name": "Gravityeffect",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravityeffect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gravity",
+      "type": "potioneffect",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravity"
+    },
+    {
+      "name": "Killentity",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "killentity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Instantkillstick",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "instantkillstick"
+    },
+    {
+      "name": "RideEntity",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ride_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RidingStick",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "riding_stick"
+    },
+    {
+      "name": "NoobDeath",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noob_death",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StickOfNoobs",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stick_of_noobs"
+    },
+    {
+      "name": "SticksOfPower",
+      "type": "tab",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sticks_of_power"
+    },
+    {
+      "name": "Launchentity",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "launchentity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LaunchStick",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "launch_stick"
+    },
+    {
+      "name": "Despawnentity",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "despawnentity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Despawnstick",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "despawnstick"
+    },
+    {
+      "name": "GiveGravity",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "give_gravity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GravityStick",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravity_stick"
+    },
+    {
+      "name": "Curiosityaction",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curiosityaction",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Curiosity",
+      "type": "command",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curiosity"
+    },
+    {
+      "name": "BlindnessPotion",
+      "type": "potion",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blindness_potion"
+    },
+    {
+      "name": "BlindnessPotionCraft",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blindness_potion_craft"
+    },
+    {
+      "name": "DecayPotion",
+      "type": "potion",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decay_potion"
+    },
+    {
+      "name": "DecayRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decay_recipe"
+    },
+    {
+      "name": "DecayStrong",
+      "type": "potion",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decay_strong"
+    },
+    {
+      "name": "DecayStrongRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decay_strong_recipe"
+    },
+    {
+      "name": "DecayLong",
+      "type": "potion",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decay_long"
+    },
+    {
+      "name": "DecayLongRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decay_long_recipe"
+    },
+    {
+      "name": "PoisonPotionRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poison_potion_recipe"
+    },
+    {
+      "name": "CuriosityAchieved",
+      "type": "achievement",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curiosity_achieved"
+    },
+    {
+      "name": "PoisonAspect",
+      "type": "enchantment",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poison_aspect"
+    },
+    {
+      "name": "PoisonAspectEffect",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poison_aspect_effect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "wiimenumusic",
+      "files": [
+        "wii-menu-music"
+      ],
+      "category": "music",
+      "subtitle": "Wii Menu Music"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.minecraft.potion.effect.decay_long": "Potion of Decay",
+      "itemGroup.t77modifications.sticks_of_power": "Sticks Of Power",
+      "item.minecraft.lingering_potion.effect.decay_potion": "Lingering Potion of Decay",
+      "item.t77.despawnstick": "Despawn Stick",
+      "item.t77.riding_stick": "Riding Stick",
+      "item.t77modifications.stick_of_noobs": "Stick Of Noobs",
+      "death.attack.noob": "%1$s was a noob",
+      "item.minecraft.lingering_potion.effect.blindness_potion": "Lingering Potion of Seen\u0027t",
+      "item.minecraft.tipped_arrow.effect.decay_strong": "Arrow of Decay",
+      "item.minecraft.splash_potion.effect.decay_long": "Splash Potion of Decay",
+      "item.minecraft.lingering_potion.effect.decay_long": "Lingering Potion of Decay",
+      "item.minecraft.tipped_arrow.effect.blindness_potion": "Arrow of Blindness Seen\u0027t",
+      "item.minecraft.tipped_arrow.effect.decay_long": "Arrow of Decay",
+      "item.t77modifications.gravity_stick": "Gravity Stick",
+      "item.t77.gravity_stick": "Gravity Stick",
+      "effect.t77.gravity": "Gravity of the Situation",
+      "death.attack.curious": "Curiosity killed the cat, and also %1$s",
+      "advancements.curiosity_achieved.descr": "I wonder what this does?",
+      "item.t77.stick_of_noobs": "Stick Of Noobs",
+      "item.t77modifications.despawnstick": "Despawn Stick",
+      "enchantment.t77.poison_aspect": "Poison Aspect",
+      "itemGroup.t77.sticks_of_power": "Sticks Of Power",
+      "item.t77modifications.launch_stick": "Launch Stick",
+      "item.minecraft.splash_potion.effect.decay_potion": "Splash Potion of Decay",
+      "advancements.curiosity_achieved.title": "Curiosity Killed The Cat",
+      "item.minecraft.lingering_potion.effect.decay_strong": "Lingering Potion of Decay",
+      "enchantment.t77modifications.poison_aspect": "Poison Aspect",
+      "subtitles.wiimenumusic": "Wii Menu Music",
+      "item.minecraft.potion.effect.decay_strong": "Potion of Decay",
+      "effect.t77modifications.gravity": "Gravity of the Situation",
+      "item.minecraft.tipped_arrow.effect.decay_potion": "Arrow of Decay",
+      "item.t77modifications.instantkillstick": "One Hit Kill Stick",
+      "item.t77.launch_stick": "Launch Stick",
+      "item.minecraft.splash_potion.effect.decay_strong": "Splash Potion of Decay",
+      "item.minecraft.splash_potion.effect.blindness_potion": "Splash Potion of Seen\u0027t",
+      "item.minecraft.potion.effect.blindness_potion": "Potion of Seen\u0027t",
+      "item.t77.instantkillstick": "One Hit Kill Stick",
+      "item.minecraft.potion.effect.decay_potion": "Potion of Decay",
+      "item.t77modifications.riding_stick": "Riding Stick",
+      "great.unknown": "What is it?"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "t77modifications",
+    "modName": "T77 Modifications",
+    "version": "1.0.2",
+    "description": "Simple little modifications to Minecraft :)",
+    "author": "Trains77",
+    "websiteURL": "https://github.com/Trains77/T77Modifications",
+    "license": "Mozilla Public License 2.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.trains",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

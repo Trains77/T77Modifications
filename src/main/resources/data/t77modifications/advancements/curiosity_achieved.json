@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:skeleton_skull"
+    },
+    "title": {
+      "translate": "advancements.curiosity_achieved.title"
+    },
+    "description": {
+      "translate": "advancements.curiosity_achieved.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "curiosity_achieved": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minecraft:adventure/root"
+}

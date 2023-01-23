@@ -1,0 +1,12 @@
+{
+  "wiimenumusic": {
+    "category": "music",
+    "subtitle": "subtitles.wiimenumusic",
+    "sounds": [
+      {
+        "name": "t77modifications:wii-menu-music",
+        "stream": true
+      }
+    ]
+  }
+}

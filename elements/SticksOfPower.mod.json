@@ -1,0 +1,11 @@
+{
+  "_fv": 34,
+  "_type": "tab",
+  "definition": {
+    "name": "Sticks Of Power",
+    "icon": {
+      "value": "Items.DEBUG_STICK"
+    },
+    "showSearch": false
+  }
+}

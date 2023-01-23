@@ -1,0 +1,21 @@
+{
+  "_fv": 34,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Seen't",
+    "splashName": "Splash Potion of Seen't",
+    "lingeringName": "Lingering Potion of Seen't",
+    "arrowName": "Arrow of Blindness Seen't",
+    "effects": [
+      {
+        "effect": {
+          "value": "BLINDNESS"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}
